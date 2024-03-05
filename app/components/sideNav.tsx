@@ -17,7 +17,7 @@ export default function SideNav(){
 
       <button title="Side navigation"
   type="button"
-  className={`visible fixed left-6 top-6 z-40 order-10 block h-10 w-10 self-center rounded bg-white opacity-100 lg:hidden ${
+  className={`visible fixed left-6 top-6 z-40 order-10 block h-10 w-10 self-center rounded bg-orange-400 opacity-100 lg:hidden ${
     isSideNavOpen
       ? "visible opacity-100 [&_span:nth-child(1)]:w-6 [&_span:nth-child(1)]:translate-y-0 [&_span:nth-child(1)]:rotate-45 [&_span:nth-child(3)]:w-0 [&_span:nth-child(2)]:-rotate-45 "
       : ""
@@ -47,11 +47,11 @@ export default function SideNav(){
       <aside
   id="nav-menu-3"
   aria-label="Side navigation"
-  className={`fixed top-0 bottom-0 left-0 z-40 flex w-72 flex-col border-r border-r-slate-200 bg-black transition-transform lg:translate-x-0 ${
+  className={`fixed top-0 bottom-0 left-0 z-40 flex w-72 flex-col border-r border-r-slate-200 bg-[#363062] transition-transform lg:translate-x-0 ${
     isSideNavOpen ? "translate-x-0" : " -translate-x-full"
   }`}
 >
-        <a
+        {/* <a
           aria-label="WindUI logo"
           className="flex items-center gap-2 whitespace-nowrap p-6 text-xl font-medium focus:outline-none"
           href="javascript:void(0)"
@@ -78,7 +78,7 @@ export default function SideNav(){
             />
           </svg>
           WindUI
-        </a>
+        </a> */}
         <div className="border-b border-slate-200 p-3 pb-6">
           <div className="relative">
             <input
@@ -86,7 +86,7 @@ export default function SideNav(){
               type="text"
               name="id-b13s"
               placeholder="Search here"
-              className="peer relative h-10 w-full rounded border border-slate-200 px-4 pr-12 text-sm text-slate-500 outline-none transition-all autofill:bg-white invalid:border-pink-500 invalid:text-pink-500 focus:border-neutral-500 focus:outline-none invalid:focus:border-pink-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
+              className="peer relative h-10 w-full rounded border border-slate-200 px-4 pr-12 text-sm text-white outline-none transition-all autofill:bg-white invalid:border-pink-500 invalid:text-pink-500 focus:border-neutral-500 focus:outline-none invalid:focus:border-pink-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-white"
             />
 
             <svg
@@ -115,7 +115,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center">
                     <svg
@@ -143,7 +143,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                   aria-current="page"
                 >
                   <div className="flex items-center self-center ">
@@ -177,7 +177,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center ">
                     <svg
@@ -205,7 +205,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center ">
                     <svg
@@ -236,7 +236,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center ">
                     <svg
@@ -264,7 +264,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center">
                     <svg
@@ -292,7 +292,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center ">
                     <svg
@@ -325,7 +325,7 @@ export default function SideNav(){
               <li className="px-3">
                 <a
                   href="#"
-                  className="flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
+                  className="flex items-center gap-3 rounded p-3 text-white transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-300 aria-[current=page]:bg-neutral-50 aria-[current=page]:text-neutral-500 "
                 >
                   <div className="flex items-center self-center ">
                     <svg

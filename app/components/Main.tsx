@@ -17,7 +17,7 @@ export default function Main(){
     </section>
     <section className="ml-0 sm:ml-72 ">
 
-            <div className="sm:flex sm:flex-row sm:justify-between sm:gap-2 sm:mx-10 sm:my-10 flex flex-col ">
+            <div className="sm:flex sm:flex-row sm:justify-between sm:gap-2 sm:mx-10 sm:my-10 flex flex-col gap-2 ml-2 ">
    <Card></Card>
           <Card></Card>
           <Card></Card>

@@ -6,7 +6,7 @@ export default function Hero(){
     return(
 
    <div>
- <div className="hero min-h-screen" style={{backgroundImage: 'url(https://img.freepik.com/premium-photo/orange-black-furniture-room_1029445-2753.jpg)'}}>
+ <div className="hero min-h-screen" style={{backgroundImage: 'url(https://www.nobroker.in/blog/wp-content/uploads/2022/03/Beautiful-Orange-Two-Colour-Combinations-for-Bedroom-Walls-1.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     {/* <div className="max-w-md">
